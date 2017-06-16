@@ -1,0 +1,25 @@
+{
+  "name": "firstnpm",
+  "version": "0.1.0",
+  "description": "Traductor de idioma",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enkrateia/myFirstNPM.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Carlos Govea <cgovea0310@gmail.com> (https://twitter.com/en_krateia)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
