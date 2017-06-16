@@ -1,5 +1,5 @@
 {
-  "name": "firstnpm",
+  "name": "@enkrateia/firstnpm",
   "version": "0.1.0",
   "description": "Traductor de idioma",
   "main": "dist/src/platzom.js",
